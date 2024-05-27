@@ -1,3 +1,14 @@
-* {
+@mixin dFlex($jc: center, $ai: center) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
   margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
